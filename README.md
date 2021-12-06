@@ -25,3 +25,7 @@ HTML - CSS (Bootstrap) - Javascript - PHP
 - Choix de l'instrument (guitare, piano,..) et schémas
 
 Je suis à l'écoute de toute suggestion permettant d'améliorer toute ou partie de cette application. 
+
+Merci
+
+![clé de sol](images/clesol.svg)
