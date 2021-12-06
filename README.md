@@ -1,2 +1,2 @@
 # Harmonize
-Outil pour les guitaristes
+Un outil pour les guitaristes
