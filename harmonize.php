@@ -1651,7 +1651,7 @@ if (isset($_GET["note"]) && isset($_GET["mode"]) && in_array($_GET["note"], $tab
         <hr/>
 
         <div class="mx-auto" style="width: 200px;">
-            <form action="calculsV3.3.php" method="GET">
+            <form action="harmonize.php" method="GET">
                 <div class="mb-3">
                     <label for="note" class="form-label">Choisissez une note </label>
                     <select name="note" class="form-control">
@@ -1714,7 +1714,7 @@ if (isset($_GET["note"]) && isset($_GET["mode"]) && in_array($_GET["note"], $tab
 
     <body>
       <div class="mx-auto" style="width: 200px;">
-          <form action="calculsV3.3.php" method="GET">
+          <form action="harmonize.php" method="GET">
               <div class="mb-3">
                   <label for="note" class="form-label">Choisissez une note </label>
                   <select name="note" class="form-control">
@@ -1757,8 +1757,3 @@ if (isset($_GET["note"]) && isset($_GET["mode"]) && in_array($_GET["note"], $tab
     </html>
 <?php
 }
-/* Piste d'amélioration:
-      - Au clic sur une gamme relative, celle-ci s'affiche avec ses propres gammes relatives et ses propres accords
-      - affichage des intervalles étendues (9e,10e,11e,12e,13e,14e,...)
-      - affichage des positions d'accord sur le manche
-*/
